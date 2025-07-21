@@ -14,7 +14,6 @@ class _LoginScreenState extends State<LoginScreen> {
       body: Padding(
         padding: const EdgeInsets.all(15.0),
         child: Column(
-          //mainAxisAlignment: MainAxisAlignment.center,
           children: [
             AppBar(),
             Text('English (Uk) '),
@@ -28,6 +27,7 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
 
             SizedBox(height: 80),
+
             //its a input field to enter name
             TextField(
               decoration: InputDecoration(
